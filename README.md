@@ -2,8 +2,6 @@ Forikfy
 
 A Modern Recipe Website
 
-<!-- Optional: Add an image or banner here -->
-
 Overview
 
 Forikfy is a modern and responsive recipe website built using HTML, CSS, and SCSS, enhanced with JavaScript for interactivity. It offers a clean user interface for browsing and discovering recipes, making cooking simple and enjoyable.
@@ -35,17 +33,17 @@ Forikfy/
 │
 ├── index.html
 ├── /css
-│   └── style.css
+│ └── style.css
 ├── /scss
-│   ├── _variables.scss
-│   ├── _mixins.scss
-│   ├── _components.scss
-│   └── main.scss
+│ ├── \_variables.scss
+│ ├── \_mixins.scss
+│ ├── \_components.scss
+│ └── main.scss
 ├── /js
-│   └── script.js
+│ └── script.js
 ├── /assets
-│   ├── images/
-│   └── icons/
+│ ├── images/
+│ └── icons/
 └── README.md
 
 Getting Started
@@ -54,7 +52,7 @@ Prerequisites
 A modern browser
 
 Node.js
- and npm (if using SCSS via a compiler)
+and npm (if using SCSS via a compiler)
 
 Setup
 
@@ -63,20 +61,14 @@ Clone the repository:
 git clone https://github.com/your-username/Forikfy.git
 cd Forikfy
 
-
 If you want to compile SCSS:
 
 npm install -g sass
 sass --watch scss:css
 
-
 Open index.html in your browser.
 
 Screenshots
-<!-- Add screenshots of the UI here -->
-
-
-
 
 Contributing
 
